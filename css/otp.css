@@ -1,0 +1,179 @@
+.main_wrapper {
+    position: relative;
+}
+
+.main_section {
+    background: url(../images/banner_desk.png);
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.otpform_wrapper {
+    position: relative;
+    padding: 0 30px 40px;
+    background: #FFFFFF;
+    margin: 100px 0;
+    border-radius: 4px;
+    filter: drop-shadow(0px 4px 17px rgba(0, 0, 0, 0.07));
+    min-height: 612px;
+}
+
+.mrt {
+    margin-top: -590px;
+}
+
+/* OTP Modal */
+
+.card-body {
+    text-align: center;
+    padding: 20px 0 60px;
+}
+
+.card-body h2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #1e2a3b;
+    margin-bottom: 20px;
+}
+
+.card-body p {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    color: #27364b;
+    margin-bottom: 60px;
+}
+
+.digit-group .digit {
+    width: 56.92px;
+    height: 54px;
+    background: #ffffff;
+    border: 1px solid #c4c4c4;
+    border-radius: 9px;
+}
+
+.digit-group .digit:hover,
+.digit-group .digit:focus,
+.digit-group .digit:active,
+.digit-group .digit:focus-visible,
+.digit-group .digit:focus-within {
+    outline: #DB0880;
+    box-shadow: none;
+}
+
+.__mr_20 {
+    margin-right: 15px;
+}
+
+.submit_btn {
+    max-width: 297px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+    background: #DB0880;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 24px 16px;
+    margin: 0 auto;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.__theme_color {
+    color: #26282e;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.card-body .form-group .help-block.otp_error_box {
+    display: none;
+}
+
+.card-body .form-group.has-error .help-block.otp_error_box {
+    font-size: 11px;
+    line-height: 11px;
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    transform: translate(-50%);
+    color: red;
+    display: block;
+}
+
+.btn-close:focus,
+.btn-close:hover,
+.btn-close:active {
+    box-shadow: none;
+}
+
+/* End OTP */
+
+footer {
+    width: 100%;
+    height: 30px;
+    background: #26376D;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+@media screen and (min-width: 2000px){
+    .main_wrapper {
+        height: 100%;
+    }   
+}
+
+@media screen and (max-width: 767.98px) {
+    .otpform_wrapper {
+        margin-top: 40px;
+        margin-bottom: 90px;
+    }
+
+    .card-body p {
+        margin-bottom: 30px;
+    }
+
+    .main_section {
+        background: url(../images/banner_mob.png);
+        max-height: 493px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .card-body h2 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 374.98px) {
+    .digit-group .digit {
+        width: 44.92px;
+        height: 46px;
+    }
+
+    .card-body .form-group.has-error .help-block.otp_error_box {
+        top: 55px;
+    }
+
+    .__mr_20 {
+        margin-right: 0px;
+    }
+}

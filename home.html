@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lodha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+</head>
+
+<body>
+    <div class="main_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                    <header>
+                        <img class="img-fluid palava_logo" src="./images/palava_logo.svg" alt="Lodha Logo" />
+                        <img class="img-fluid d4l_logo" src="./images/d4l_logo.svg" alt="wishfin-logo" />
+                    </header>
+                </div>
+            </div>
+        </div>
+        <div class="main_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-10 mx-auto">
+                        <div class="banner_content">
+                            <h1>Live your <strong>Dream life</strong> at <strong>Palava City.</strong></h1>
+                            <p><strong>Smart Infrastructure, Highest Safety</strong> and Security and <strong>World Class Amenities</strong> located just around the corner.</p>
+                            <h5>Homes starting at 43.99 lacs**</h5>
+                            <div class="cu_btn">
+                                <a id="submit_btn" class="know_more" href =''>
+                                    <span id="button_text"> Know more 
+                                        <img class="btnArrow" src="./images/pinkbtn_arrow.png" alt="Know More Arrow">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="form_wrapper">
+                            <h2>Let’s get you started</h2>
+                            <form action="" id="basicDetails">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-10">
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+                                                <div class="form-group">
+                                                    <label for="fullName">Full Name</label>
+                                                    <input name="fullName" type="text" id="fullName"
+                                                        class="form-control required" maxlength="50" value=""
+                                                        aria-required="true">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+                                                <div class="form-group">
+                                                    <label for="mobile">Mobile</label>
+                                                    <input name="mobile" type="tel" id="mobile" maxlength="10"
+                                                        class="form-control required" value="" aria-required="true">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+                                                <div class="form-group">
+                                                    <label for="budget">Budget Range</label>
+                                                    <select name="budget" id="budget" class="form-control required"
+                                                        aria-required="true">
+                                                        <option value="">Please Select</option>
+                                                        <option value="0">25lacs - 35lacs</option>
+                                                        <option value="1">35lacs - 45lacs</option>
+                                                        <option value="2">45lacs - 55lacs</option>
+                                                        <option value="3">55lacs to 1 crore</option>
+                                                        <option value="4">1crore and above</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+                                                <div class="form-group">
+                                                    <label for="roomNo">Number of Rooms</label>
+                                                    <select name="roomNo" id="roomNo" class="form-control required"
+                                                        aria-required="true">
+                                                        <option value="">Please Select</option>
+                                                        <option value="0">1bhk</option>
+                                                        <option value="1">2bhk</option>
+                                                        <option value="2">3bhk</option>
+                                                        <option value="3">4bhk</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                                <div class="form-group">
+                                                    <label class="check_show">
+                                                        <input type="checkbox" name="accept" id="accept" class="required"
+                                                            checked="checked" value="1" aria-required="true" />
+                                                        <i></i>I hereby agree with MMPL's Privacy policy and Terms &
+                                                        Conditions.
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-2">
+                                        <button type="submit" class="formSubmitButton mx-auto mrt_50">Get OTP
+                                            <img class="img-fluid btnArrow" src="./images/btn-arrow.png" alt="" />
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="facilities_wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-8 col-sm-12 col-12 mb-5 mx-auto">
+                        <img class="img-fluid" src="./images/facility_img.png" alt="Facility Image">
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="facility">
+                            <h6>Our facilities</h6>
+                            <h2>Live a Life of convenience, with everything just a walk away</h2>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                    <div class="cu_ddl">
+                                        <ul>
+                                            <li>Retail high-street</li>
+                                            <li>Olympic sports centre</li>
+                                            <li>Walk to work</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                    <div class="cu_ddl">
+                                        <ul>
+                                            <li>Lakeside park & playgrounds</li>
+                                            <li>Temples</li>
+                                            <li>World-class education with the best schools</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h3>Plans & Prices</h3>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                        <div class="plan_wrapper">
+                            <div class="plans">
+                                <div class="row">
+                                    <div class="col-6 mb-4">
+                                        <div class="cu_col">
+                                            <p>Type</p>
+                                            <span>1 BHK</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 mb-4">
+                                        <div class="cu_col">
+                                            <p>Starting</p>
+                                            <span>43.99 Lacs</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="cu_col">
+                                            <p>Carpet Area</p>
+                                            <span>443</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cu_btn">
+                                <a id="submit_btn" class="know_more" href =''>View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                        <div class="plan_wrapper">
+                            <div class="plans">
+                                <div class="row">
+                                    <div class="col-6 mb-4">
+                                        <div class="cu_col">
+                                            <p>Type</p>
+                                            <span>2 BHK</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 mb-4">
+                                        <div class="cu_col">
+                                            <p>Starting</p>
+                                            <span>57.99 Lacs</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="cu_col">
+                                            <p>Carpet Area</p>
+                                            <span>587</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cu_btn">
+                                <a id="submit_btn" class="know_more" href =''>View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                        <div class="plan_wrapper">
+                            <div class="plans">
+                                <div class="row">
+                                    <div class="col-6 mb-4">
+                                        <div class="cu_col">
+                                            <p>Type</p>
+                                            <span>3/2.5 BHK optima</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 mb-4">
+                                        <div class="cu_col">
+                                            <p>Starting</p>
+                                            <span>67.99 Lacs</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="cu_col">
+                                            <p>Carpet Area</p>
+                                            <span>647</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cu_btn">
+                                <a id="submit_btn" class="know_more" href =''>View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                        <div class="plan_wrapper">
+                            <div class="plans">
+                                <div class="row">
+                                    <div class="col-6 mb-4">
+                                        <div class="cu_col">
+                                            <p>Type</p>
+                                            <span>3 BHK Ultima</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 mb-4">
+                                        <div class="cu_col">
+                                            <p>Starting</p>
+                                            <span>86.99 Lacs</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="cu_col">
+                                            <p>Carpet Area</p>
+                                            <span>847</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cu_btn">
+                                <a id="submit_btn" class="know_more" href =''>View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer></footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/autoNumeric.js"></script>
+    <script src="./js/home.js"></script>
+</body>
+
+</html>

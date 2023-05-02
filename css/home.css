@@ -1,0 +1,350 @@
+.main_wrapper {
+  position: relative;
+  height: 100%;
+}
+
+.main_section {
+  background: url(../images/banner_desk.png);
+  max-height: 615px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner_content {
+  text-align: center;
+  padding: 85px 0 75px;
+}
+
+.banner_content .cu_btn {
+  display: flex;
+  justify-content: center;
+}
+
+.banner_content .cu_btn .btnArrow {
+  margin-left: 5px;
+}
+
+.banner_content h1,
+.banner_content h5 {
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.banner_content h1 {
+  font-size: 60px;
+  line-height: 79px;
+  padding: 0 170px;
+}
+
+.banner_content p {
+  margin: 15px 0;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 34px;
+  color: #ffffff;
+  text-shadow: 0px 4px 16px rgba(0, 0, 0, 0.32);
+}
+
+.banner_content h5 {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.facilities_wrapper {
+  margin-top: 220px;
+}
+
+.plan_wrapper {
+  margin: 0 0 50px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(40, 40, 40, 0.13);
+}
+
+.facilities_wrapper h3 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #282828;
+  margin: 0 0 35px;
+}
+
+.plan_wrapper:hover {
+  box-shadow: 2px 5px 25px rgba(40, 40, 40, 0.12);
+}
+
+.plans {
+  padding: 15px;
+  min-height: 190px;
+}
+
+.plan_wrapper .plans .cu_col p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 32px;
+  color: #db0880;
+}
+
+.plan_wrapper .plans .cu_col span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #26376d;
+}
+
+.plan_wrapper .cu_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #ebebeb;
+}
+
+.plan_wrapper .cu_btn .know_more {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #26376d;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+}
+
+.plan_wrapper .cu_btn .know_more:hover {
+  color: #fff;
+  background: #db0880;
+}
+
+.form_wrapper {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 7px 7px 15px rgba(142, 142, 142, 0.15);
+}
+
+.form_wrapper h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1e2a3b;
+  margin: 15px 0 30px;
+}
+
+.mrt_50 {
+  margin-top: 29px;
+}
+
+.banner_content .know_more {
+  max-width: 153px;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 26px;
+  color: #db0880;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.banner_content .know_more:hover,
+.banner_content .know_more:focus,
+.banner_content .know_more:active {
+  color: #db0880;
+}
+
+.btnArrow {
+  margin-left: 10px;
+}
+
+.cu_ddl ul {
+  position: relative;
+}
+
+.cu_ddl ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #26376d;
+}
+
+.cu_ddl ul li::before {
+  content: url("data:image/svg+xml,%3Csvg width='13' height='10' viewBox='0 0 13 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 6L4 9L12 1' stroke='%23DB0880' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  position: absolute;
+  left: -10px;
+  padding-left: 15px;
+}
+
+.facility h6 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #db0880;
+}
+
+.facility h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+  color: #0d263b;
+  margin: 5px 0 35px;
+}
+
+.check_show {
+  display: flex;
+  line-height: 15px !important;
+  font-size: 11px !important;
+}
+
+footer {
+  width: 100%;
+  height: 30px;
+  background: #26376D;
+}
+
+@media screen and (min-width: 1500px) {
+  .main_wrapper {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1199.98px) {
+  .facilities_wrapper {
+    margin-top: 70px;
+  }
+
+  .formSubmitButton {
+    padding: 10px;
+  }
+
+  .banner_content h1 {
+    font-size: 40px;
+    line-height: 50px;
+    padding: 0;
+  }
+
+  .banner_content {
+    text-align: center;
+    padding: 95px 0 55px;
+  }
+
+  .banner_content p {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 8px 0;
+  }
+
+  .facilities_wrapper h3 {
+    font-size: 32px;
+    margin: 0px 0 25px;
+  }
+
+  .facility h2 {
+    font-size: 30px;
+    line-height: 41px;
+  }
+
+  .plan_wrapper .plans .cu_col span {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .facilities_wrapper {
+    margin-top: 345px;
+  }
+
+  .mrt_50 {
+    margin-top: 0px;
+  }
+
+  .banner_content h5 {
+    font-size: 20px;
+  }
+
+  .banner_content p {
+    font-size: 14px;
+  }
+
+  .banner_content {
+    padding: 40px 0 30px;
+  }
+
+  .facility h2 {
+    font-size: 22px;
+    line-height: 36px;
+  }
+
+  .facilities_wrapper h3 {
+    font-size: 22px;
+    text-align: left;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .facilities_wrapper {
+    margin-top: 380px;
+  }
+
+  .facility h2,
+  .facility h6 {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .facilities_wrapper {
+    margin-top: 490px;
+  }
+
+  .form_wrapper h2 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 12px;
+  }
+
+  .main_section {
+    background: url(../images/banner_mob.png);
+    max-height: 493px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .banner_content {
+    padding: 40px 0 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .banner_content h1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .facilities_wrapper {
+    margin-top: 480px;
+  }
+}

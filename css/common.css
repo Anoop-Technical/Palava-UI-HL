@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 575.98px) {
+  .palava_logo {
+    width: 140px;
+  }
+
+  .d4l_logo {
+    width: 100px;
+  }
+}
